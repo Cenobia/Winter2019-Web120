@@ -1,0 +1,65 @@
+
+table {
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #393a4e;
+}
+
+tr:nth-of-type(even) {
+    background-color: #b2b6cc;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+th {
+    color: #f2f2f2;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 18px;
+    padding: 1.5em;
+    text-align: left;
+}
+
+.notice {
+    text-align: center;
+}
+
+#discord {
+    background-color: #6a2025;
+    border-color: solid black 1px;
+    overflow: hidden;
+    width: 93px;
+    margin: auto;
+}
+
+#discord a { 
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+    #scrolltable {
+        overflow:auto;
+    }
+
+}
+
+.notice {
+    margin-left: 3%;
+    margin-right: 3%;
+
+}

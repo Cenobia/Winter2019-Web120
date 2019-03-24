@@ -1,0 +1,31 @@
+.about1 {
+    width: 90%;
+}
+
+.about1 p {
+    width: auto;
+    padding: 15px;
+    margin-left: 105px;
+}
+
+.about1 img {
+    float: left;
+    margin: 20px 20px 20px 120px;
+    width:400px;
+    height:321px;
+
+}
+
+@media screen and (max-width: 600px) {
+    .about1 img {
+        float: none;
+        width: 100%;
+        margin-left: 5%;
+        overflow: visible;
+    }
+
+    .about1 p {
+        width: auto;
+        margin-left:12%;
+    }
+}

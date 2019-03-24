@@ -1,0 +1,8 @@
+html {
+    color: red;
+    background-color: black;
+}
+
+.my-class h3, .my-class h2 {
+    background-color: aquamarine
+}
